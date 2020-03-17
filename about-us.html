@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+
+    <title>Серьёзность production</title>
+
+    <!-- Custom styles for this template -->
+    <style>
+      @keyframes preloaderLogo{0%{opacity:0}100%{opacity:1}}.preloader{position:fixed;background:#cb4e44;width:100vw;height:100vh;padding-bottom:60px;top:0;left:0;z-index:99;display:flex;justify-content:center;align-items:center}.preloader__logo{width:126px;height:129px;animation:preloaderLogo 1s linear forwards}.preloader__logo i{font-size:130px}.preloader__logo i::before{color:#fff}.preloader__logo-line{position:relative;top:15px;height:4px;width:0;background:#fff}.preloader__img{position:absolute;opacity:0}.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:126px;height:4px;top:140px;bottom:0;left:3px;right:0;margin:auto;position:fixed;overflow:hidden;z-index:100}.pace .pace-progress{box-sizing:border-box;transform:translate3d(0,0,0);display:block;background:#fff;position:absolute;top:0;right:100%;width:100%;height:4px}@media (min-width:768px){.pace{top:140px}}@media screen and (min-width:768px){.pace{top:100px}}
+    </style>
+    <noscript>
+        <style>
+            html, body { opacity: 1 !important; }
+            .preloader{ display: none !important; }
+        </style>
+    </noscript>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body class="page">
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="preloader__logo">
+            <img src="img/icon/logo-white.svg">
+            <!-- <i class="icon-logo"></i> -->
+        </div>
+        <div class="preloader__img">
+            <img src="img/icon-pre2.png" alt="">
+            <img src="img/icon-pre.png" alt="">
+        </div>
+    </div>
+    <!-- /preloader -->
+    
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__left">
+                <div class="header__left-tel">
+                    <i class="icon-tel" id="open-button"></i>
+                    <i class="icon-cancel" id="close-button"></i>
+                </div>
+                <ul class="header__left-nav">
+                    <li class="delay"><a class="current_page_item" href="/">Головна</a></li>
+                    <li class="delay"><a href="about-us.html">О нас</a></li>
+                    <li class="delay"><a href="menu.html">Меню</a></li>
+                </ul>
+            </div>
+    
+            <div class="header__logo">
+                <a href="/"><i class="icon-logo"></i></a>
+            </div>
+    
+            <div class="header__right">
+                <div class="header__right-menu">
+                    <i class="icon-menu" id="open-button2"></i>
+                    <i class="icon-cancel" id="close-button2"></i>
+                </div>
+                <ul class="header__right-nav">
+                    <li class="delay"><a href="gallery.html">Галерея</a></li>
+                    <li class="delay"><a href="franchise.html">Франшиза</a></li>
+                    <li class="delay"><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main main--page">
+      <h2 class="page-title"><i class="icon-pika"></i>Про нас<i class="icon-pika"></i></h2>
+      <div class="about-us">
+        <div class="about-us__content">
+          <div class="about-us__info">
+            <div class="about-us__info-title">Про ресторан</div>
+            <div class="about-us__info-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus, id
+              porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus, eget
+              semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+            </div>
+          </div>
+          <div class="about-us__video">
+            <img src="img/about-us-video.png" alt="">
+            <div class="about-us__video-btn">
+              <span class="icon-triangle-right"></span>
+            </div>
+          </div>
+        </div>
+        <div class="about-us__gallery">
+          <div class="about-us__gallery-title">Оберiть ресторан:</div>
+          <ul class="about-us__tabs">
+            <li><a href="#" class="icon-adress current" data-tab="tab-1">
+                <span class="about-us__tabs-metro">м. МIНсЬка</span>
+                <span class="about-us__tabs-adress">Пр-т. Героїв Сталiнграда, 24А</span>
+            </a></li>
+            <li><a href="#" class="icon-adress" data-tab="tab-2">
+                <span class="about-us__tabs-metro">м. ПОштова ПЛОЩА</span>
+                <span class="about-us__tabs-adress">вул.Iгоревська, 5</span>
+            </a></li>
+          </ul>
+          <div id="tab-1" class="about-us__slider current">
+            <div class="about-us__slider-wrapper">
+              <div class="about-us__slider-item">
+                <a href="img/about-us-zal.png" class="about-us__slider-item-img" href="#">
+                  <img src="img/about-us-zal.png" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us__slider-item">
+                <a href="img/home-bg.jpg" class="about-us__slider-item-img" href="#">
+                  <img src="img/home-bg.jpg" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us__slider-item">
+                <a href="img/category3.jpg" class="about-us__slider-item-img" href="#">
+                  <img src="img/category3.jpg" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us__slider-item">
+                <a href="img/about-us-zal.png" class="about-us__slider-item-img" href="#">
+                  <img src="img/about-us-zal.png" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about-us__slider-arrows about-us__slider-arrows--1">
+              <span class="about-us__slider-arrows-prev icon-down-arrow"></span>
+              <span class="about-us__slider-arrows-next icon-down-arrow"></span>
+            </div>
+          </div>
+          <div id="tab-2" class="about-us__slider">
+            <div class="about-us__slider-wrapper">
+              <div class="about-us__slider-item">
+                <a href="img/about-us-zal.png" class="about-us__slider-item-img" href="#">
+                  <img src="img/about-us-zal.png" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">ВТоро ресторан</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us__slider-item">
+                <a href="img/home-bg.jpg" class="about-us__slider-item-img" href="#">
+                  <img src="img/home-bg.jpg" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us__slider-item">
+                <a href="img/category3.jpg" class="about-us__slider-item-img" href="#">
+                  <img src="img/category3.jpg" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us__slider-item">
+                <a href="img/about-us-zal.png" class="about-us__slider-item-img" href="#">
+                  <img src="img/about-us-zal.png" alt="">
+                </a>
+                <div class="about-us__slider-item-content">
+                  <h4 class="about-us__slider-item-content-title">Основний зал</h4>
+                  <p class="about-us__slider-item-content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tellus venenatis diam finibus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    id porttitor dui congue. Morbi auctor velit ornare metus placerat auctor. Cras porta sagittis lacus,
+                    eget semper tellus fermentum blandit. Mauris euismod laoreet nisl a mollis. Aliquam dignissim.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about-us__slider-arrows  about-us__slider-arrows--2">
+              <span class="about-us__slider-arrows-prev icon-down-arrow"></span>
+              <span class="about-us__slider-arrows-next icon-down-arrow"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__left">
+            <a href="tel:+38(093)099-63-36" class="footer__left-tel">+38 (093)099-63-36</a>
+            <span class="footer__left-time">з 12:00 до 00:00</span>
+        </div>
+    
+        <div class="footer__center">
+            <ul class="social">
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Telegram</a></li>
+            </ul>
+            <div class="lang">
+                <span class="lang__title">Змінити мову<i class="icon-down-arrow"></i></span>
+                <div class="lang__list">
+                    <ul>
+                        <li><a href="#">RU</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">© Усі права захищені 2019</div>
+        </div>
+    
+        <div class="footer__right">
+            <a href="https://serious.com.ua/" class="footer__right-serious" target="_blank">
+                <span>Розробка сайту</span>
+                <div class="icon-logo-serious"></div>
+            </a>
+        </div>
+    </footer>
+    
+    <div class="popUp mob-call">
+        <div class="mob-call__wrapper">
+            <div class="mob-call__title">
+                <i class="icon-pika"></i>Зв'язок<i class="icon-pika"></i>
+            </div>
+            <a href="tel:+38(093)099-63-36" class="mob-call__tel">
+                <i class="icon-tel"></i>
+                <span>+38 (093)099-63-36</span>
+            </a>
+            <div class="mob-call__time">
+                <i class="icon-time"></i>
+                <span>с 12:00 до 00:00</span>
+            </div>
+            <a href="#" class="mob-call__adress">
+                <i class="icon-adress"></i>
+                <span>пр-т. Героев Сталинграда 24А, г. Киев </span>
+            </a>
+            <ul class="social">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Telegram</a></li>
+            </ul>
+            <div class="lang">
+                <span class="lang__title">Змінити мову<i class="icon-down-arrow"></i></span>
+                <div class="lang__list">
+                    <ul>
+                        <li><a href="#">RU</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://serious.com.ua/" class="mob-call__serious" target="_blank">
+                <span>Розробка сайту:</span>
+                <div class="icon-logo-serious"></div>
+            </a>
+        </div>
+    </div>
+    <div class="popUp mob-menu">
+        <div class="mob-menu__wrapper">
+            <nav class="mob-menu__nav">
+                <ul>
+                    <li><a href="/">Головна</a></li>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Франшиза</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="mob-menu__footer">
+                <ul class="social">
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Telegram</a></li>
+                </ul>
+                <div class="lang">
+                    <span class="lang__title">Змінити мову<i class="icon-down-arrow"></i></span>
+                    <div class="lang__list">
+                        <ul>
+                            <li><a href="#">RU</a></li>
+                            <li><a href="#">EN</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="https://serious.com.ua/" class="mob-menu__serious" target="_blank">
+                    <span>Розробка сайту</span>
+                    <div class="icon-logo-serious"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <a href="shop.html" class="shop-btn"><i class="icon-bag"></i>Доставка</a>
+    
+    <div class="about-us__video-fullscreen">
+      <div class="about-us__video-fullscreen-close"></div>
+      <div class="about-us__video-fullscreen-iframe">
+        <!-- <iframe src="https://player.vimeo.com/video/94338566?autoplay=1&color=ffffff" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="fullscreen" allowfullscreen></iframe> -->
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/pace.min.js"></script>
+    <script>
+      paceOptions = {
+        ajax: true,
+        document: true,
+        eventLag: false
+      };
+
+      Pace.on('done', function () {
+        $('.preloader').delay(500).fadeOut(800);
+        $('.pace .pace-progress').delay(500).fadeOut(800);
+      })
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick-lightbox.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.viewportchecker.min.js"></script>
+  </body>
+</html>
